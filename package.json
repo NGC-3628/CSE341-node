@@ -1,10 +1,10 @@
 {
   "name": "cse341-node",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,11 @@
     "url": "https://github.com/NGC-3628/CSE341-node/issues"
   },
   "homepage": "https://github.com/NGC-3628/CSE341-node#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
