@@ -7,7 +7,6 @@
     "git-update": "git add . && git commit -m \"pdate\" && git push",
     "start-prod": "node server.js",
     "start": "nodemon app.js"
-
   },
   "keywords": [],
   "author": "",
@@ -15,9 +14,10 @@
   "description": "",
   "dependencies": {
     "body-parser": "^1.18.3",
+    "dotenv": "^16.5.0",
     "express": "^5.1.0"
   },
   "devDependencies": {
-    "nodemon": "^1.18.4"
+    "nodemon": "^1.19.4"
   }
 }
