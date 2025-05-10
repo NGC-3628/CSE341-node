@@ -1,0 +1,22 @@
+{
+  "name": "cse341-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NGC-3628/CSE341-node.git",
+    "git-update": "git add . && git commit -m \"pdate\" && git push"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NGC-3628/CSE341-node/issues"
+  },
+  "homepage": "https://github.com/NGC-3628/CSE341-node#readme",
+  "description": ""
+}
