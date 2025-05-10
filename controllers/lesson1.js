@@ -1,3 +1,7 @@
+const homeRoute = (req, rest) => {
+    res.send('This home in the controllers part');
+};
+
 const profileRoute = (req, rest) => {
     res.send('Profile');
 };
@@ -8,6 +12,7 @@ const loginRoute = (req, res) => {
 
 module.exports = {
     loginRoute,
-    profileRoute
+    profileRoute,
+    homeRoute
 };
 

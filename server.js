@@ -19,9 +19,7 @@ const app = express();
 const router = express.Router();
 const lesson1controllers = require('./controllers/lesson1')
  
-router.get('/home', (req, res) => {
-  res.send('Hello World, This is home router');
-});
+router.get('/', lesson1controllers.homeRoute);
  
 router.get('/profile', lesson1controllers.profileRoute);
  
