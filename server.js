@@ -15,21 +15,14 @@ app.listen(process.env.PORT || 3000, () => {
 //this process is very cool. You can access to different routes like /lang, /setting, /home, /contact.
 //WOW!!
 const express = require('express');
+const routes = require('./routes/lesson1');
 const app = express();
 const router = express.Router();
-const lesson1controllers = require('./controllers/lesson1')
+
  
-router.get('/', lesson1controllers.homeRoute);
+
  
-router.get('/profile', lesson1controllers.profileRoute);
- 
-router.get('/login', lesson1controllers.loginRoute);
- 
-router.get('/logout', (req, res) => {
-  res.send('Hello World, This is logout router');
-});
- 
-app.use('/', router);
+app.use('/', routes);
  
 app.listen(process.env.PORT || 3000, () => {
   console.log('Web Server is listening at port ' + (process.env.PORT || 3000));
