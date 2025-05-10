@@ -1,8 +1,8 @@
-const homeRoute = (req, rest) => {
+const homeRoute = (req, res) => {
     res.send('This home in the controllers part');
 };
 
-const profileRoute = (req, rest) => {
+const profileRoute = (req, res) => {
     res.send('Profile');
 };
 
